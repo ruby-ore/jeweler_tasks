@@ -3,7 +3,6 @@ require 'jeweler'
 Jeweler::Tasks.new(Gem::Specification.load('<%= @name %>.gemspec'))
 <%- else -%>
 begin
-  gem 'jeweler', '<%= @development_dependencies['jeweler'] %>'
   require 'jeweler'
 
   Jeweler::Tasks.new(Gem::Specification.load('<%= @name %>.gemspec'))
